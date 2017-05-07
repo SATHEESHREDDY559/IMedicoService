@@ -22,7 +22,7 @@ import com.ims.services.RegisterService;
 public class AdminController {
 	
 	private RegisterService registerservice;
-
+//Auto wiring
 	@Autowired(required=true)
 	@Qualifier(value="RegisterService")
 	public void setRegisterservice(RegisterService registerservice) {
